@@ -179,27 +179,3 @@ footer {
   }
 }
 
-
-/* ---------------------------------- */
-/* MICROMODAL BASE STYLES (REQUIRED) */
-/* ---------------------------------- */
-.modal {
-  display: none;
-}
-
-.modal.is-open {
-  display: block;
-}
-
-.modal__overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.75); /* Dark, semi-transparent backdrop */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 1000; /* Ensure it is above all other content */
-}
